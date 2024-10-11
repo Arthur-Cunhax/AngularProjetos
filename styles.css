@@ -3,13 +3,41 @@
     padding: 0;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    display: absolute;
+}
+body{
+    background-image: url("Fundo.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.6);
     color: white;
 }
 main{
-    background-image: url(Fundo.jpg);
-
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    flex-direction: column;
+    
+}
+main .conteudo{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+main .conteudo img{
+    width: 50%;
+    height: 50%;
+}
+main .conteudo p{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+} 
+footer{
+    background-color:  rgba(0, 0, 0, 0.6);
+    color: white;
 }
