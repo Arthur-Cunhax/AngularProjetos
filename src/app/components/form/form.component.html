@@ -1,3 +1,13 @@
-<div class="formulario">
-  form
+<div>
+  <input type="text" placeholder="Adicionar Tarefa" #inputTarefa>
+  <input type="text" placeholder="Data de entrega" #dataTarefa>
+  <button (click)="adicionar(inputTarefa.value,dataTarefa.value)">Adicionar</button>
+  <ul *ngFor="let tarefa of listaTarefas">
+    <li>
+      {{tarefa.nome}}
+      {{tarefa.dataEntrega}}
+    </li>
+    <i (click)=deletar(tarefa.id)>Apagar tarefa</i>
+
+  </ul>
 </div>
