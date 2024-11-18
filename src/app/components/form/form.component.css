@@ -1,0 +1,28 @@
+input{
+  border: none;
+  background-color: rgb(236, 209, 172);
+  border-radius: 10px;
+  margin: 5px;
+  height: 30px;
+}
+.addTarefa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  font-size: larger;
+}
+button{
+  border: none;
+  background-color: transparent;
+  outline:none;
+  font-size: 40px;
+}
+.clicavel:hover{
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+  background-color: rgb(236, 209, 172);
+}
