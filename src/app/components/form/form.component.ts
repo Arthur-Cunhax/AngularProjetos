@@ -19,7 +19,7 @@ export class FormComponent {
 
   ngOnInit(): void {
     this.listaTarefas= [
-      {id: 0 , nome: "TarefaExemplo" ,dataEntrega : "10/02/2012" ,concluida : false}
+
     ]
   }
   adicionar(tarefaNome:string,dataEntrega:string){
