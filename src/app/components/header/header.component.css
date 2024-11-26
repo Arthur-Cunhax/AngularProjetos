@@ -9,6 +9,11 @@
 }
 img{
   margin-left: 10px;
+  transition: 0.7s;
+}
+img:hover{
+  cursor: pointer;
+  transform: scale(0.9);
 }
 h1{
   margin-left: 5px;
